@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Custom Widget Hub",
+  "version": "1.0",
+  "description": "A Firefox extension that adds custom interactive widgets to a sidebar.",
+  "permissions": [
+    "storage"
+  ],
+  "sidebar_action": {
+    "default_panel": "sidebar.html",
+    "default_title": "Widget Hub",
+    "open_at_install": true
+  }
+}
